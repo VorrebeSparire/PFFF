@@ -1,0 +1,263 @@
+body{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #070707;
+    margin: 0px;
+    line-height: 21.83px;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/*Home Page*/
+.line{
+    margin-left: auto;
+    margin-right: auto;
+    width: 943px;
+    height: 1px;
+    margin-top: 50px;
+    background-color: #888;
+}
+
+.image{
+    position: relative;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1001;
+    width: 943px;
+    height: 387px;
+}
+
+.txt1{
+    margin-top: 65px;
+    position: relative;
+    max-width: 943px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.denis{
+    font-size: 47px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.info{  
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: bottom;
+}
+
+.verticalText{
+    transform: rotate(270deg);
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.separator::after{
+    content: "";
+    display: block;
+    width: 900px;
+    height: 2px;
+    color: #333;
+    align-items: center;
+}
+
+.nav{
+    width: 943px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.nav__link{
+    color: #828282;
+    text-decoration: none;
+}
+
+.nav__link:hover{
+    color: #070707;
+    transition: .5ms;
+}
+
+/*About Me Page*/
+.about-me-container{
+    width: 100%;
+    height: 506px;
+    background-color: #F6F6F6;
+    margin-top: 120px;
+}
+.grid-container{
+    display: grid;
+    position: relative;
+    top: 120px;
+    grid-gap: 40px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.aboutMe{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+.aboutMe-text{
+    font-size: 18px;
+    text-align: center;
+}
+/*Skils Page*/
+.skils-container{
+    width: 100%;
+    height: 610px;
+}
+.skils-txt{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    position: relative;
+    top: 91px;
+}
+.work{
+    font-size: 18px;
+    position: relative;
+    top: 186px;
+    text-align: center;
+}
+.gridIcons{
+    width: 1000px;
+    position: relative;
+    top: 292px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;*/
+}
+.centr{
+    text-align: center;
+}
+.Pfotoshop{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-size: 14px;    
+}
+.Stars{
+    width: 1000px;
+    position: relative;
+    margin-top:  330px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dusplay-stars{
+    display: flex;
+    justify-content: space-evenly;  
+}
+.portfolio-container{
+    width: 100%;
+    height: 2253px;
+    background-color: #f6f6f6;
+}
+.portfolio{
+    position: relative;
+    top: 112px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+}
+.img2{
+    display: block;
+    position: relative;
+    margin-top: 230px;
+    width: 936px;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img3{
+    display: block;
+    margin-top: 99px;
+    width: 936px;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img4{
+    display: block;
+    margin-top: 99px;
+    width: 936px;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.link1{
+    
+    display: block;
+    color: #828282;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 44px;
+}
+/*Contacts page*/
+.contacts-container{
+    width: 100%;
+    height: 622;
+}
+.cont{
+    position: relative;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    position: relative;
+    top: 114px;
+}
+.chat{
+    text-align: center;
+    font-size: 18;
+    margin-top: 177px;
+}
+.but{
+    display:block;
+    margin-top: 30px;
+    width: 180px;
+    height: 42;
+    border-radius: 15px;
+    background-color: #070707;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.link2{
+    
+    display: block;
+    color: #828282;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 165px;
+}
